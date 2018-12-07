@@ -1,8 +1,7 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import BusinessList from './components/BusinessList/BusinessList';
-import SearchBar from './components/SearchBar/SearchBar';
+import React from "react";
+import "./App.css";
+import BusinessList from "./components/BusinessList/BusinessList";
+import SearchBar from "./components/SearchBar/SearchBar";
 
 class App extends React.Component {
   render() {
@@ -11,7 +10,7 @@ class App extends React.Component {
         <h1>ravenous</h1>
         <SearchBar />
         <BusinessList />
-        </div>
+      </div>
     );
   }
 }

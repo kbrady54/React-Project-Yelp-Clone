@@ -16,10 +16,6 @@ class Business extends React.Component {
             <p>
               {this.props.business.state} {this.props.business.zipCode}
             </p>
-<<<<<<< HEAD
-            <p>{this.formatPhoneNumber(this.props.business.phone)}</p>
-=======
->>>>>>> parent of 1b56ef8... Add phone number to business listing
           </div>
           <div className="Business-reviews">
             <h3>{this.props.business.category}</h3>
